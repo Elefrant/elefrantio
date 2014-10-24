@@ -1,4 +1,4 @@
-# Elefrant ORM
+# [![ELEFRANT Logo](https://raw.githubusercontent.com/Elefrant/elefrantio/ee8f771ab7be672b6f44d3d531059d1630bfd79a/lib/templates/logo.png)](http://elefrant.com/) ELEFRANT Core & Command Line
 
 [![wercker status](https://app.wercker.com/status/ed958a0d0e57a3d11084695e9728b6b1/s/master "wercker status")](https://app.wercker.com/project/bykey/ed958a0d0e57a3d11084695e9728b6b1)
 
