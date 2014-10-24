@@ -1,23 +1,23 @@
 {
-	"name": "elefrant-blank-component",
-	"version": "0.2.0",
-	"description": "Blank component to start a new one and add to elefrant framework.",
+	"name": "__pkgName__",
+	"version": "0.0.1",
+	"description": "Description of __pkgName__",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/Elefrant/elefrant-blank-component"
+		"url": "git://github.com/__author__/__pkgName__"
 	},
-	"author": "Elefrant <hello@elefrant.com>",
+	"author": "__author__",
 	"maintainers": [{
-		"name": "Marcos Sanz Latorre",
-		"email": "marcos.sanz@13genius.com",
-		"url": "http://mistersanz.com"
+		"name": "__author__",
+		"email": "__author__ email",
+		"url": "__author__ url"
 	}],
 	"main": "component",
 	"keywords": [
-		"elefrant-blank-component",
-		"elefrant-blank",
-		"blank-component",
+		"__pkgName__",
+		"__name__",
+		"elefrant",
 		"elefrant.com",
 		"elefrant.io",
 		"component"
@@ -41,7 +41,7 @@
 	},
 	"readmeFilename": "readme.md",
 	"bugs": {
-		"url": "https://github.com/Elefrant/elefrant-blank-component/issues"
+		"url": "https://github.com/__author__/__pkgName__/issues"
 	},
-	"homepage": "https://github.com/Elefrant/elefrant-blank-component"
+	"homepage": "https://github.com/__author__/__pkgName__"
 }
