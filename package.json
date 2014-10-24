@@ -1,0 +1,69 @@
+{
+	"name": "elefrantio",
+	"version": "0.2.0",
+	"description": "Elefrant: A javascript platform to create api servers.",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/Elefrant/elefrantio"
+	},
+	"author": "Elefrant <hello@elefrant.com>",
+	"maintainers": [{
+		"name": "Marcos Sanz Latorre",
+		"email": "marcos.sanz@13genius.com",
+		"url": "http://mistersanz.com"
+	}],
+	"main": "server",
+	"keywords": [
+		"elefrant",
+		"elefrant.com",
+		"elefrantio",
+		"elefrant.io",
+		"API",
+		"Server"
+	],
+	"scripts": {
+		"test": "node node_modules/grunt-cli/bin/grunt"
+	},
+	"bin": {
+		"elefrant": "./bin/elefrant",
+		"elefrant-init": "./bin/elefrant-init",
+		"elefrant-authorize": "./bin/elefrant-authorize",
+		"elefrant-whoami": "./bin/elefrant-whoami",
+		"elefrant-login": "./bin/elefrant-login",
+		"elefrant-addKey": "./bin/elefrant-addKey",
+		"elefrant-publish": "./bin/elefrant-publish",
+		"elefrant-search": "./bin/elefrant-search",
+		"elefrant-register": "./bin/elefrant-register",
+		"elefrant-postinstall": "./bin/elefrant-postinstall",
+		"elefrant-preinstall": "./bin/elefrant-preinstall",
+		"elefrant-install": "./bin/elefrant-install",
+		"elefrant-uninstall": "./bin/elefrant-uninstall",
+		"elefrant-docs": "./bin/elefrant-docs",
+		"elefrant-component": "./bin/elefrant-component",
+		"elefrant-list": "./bin/elefrant-list",
+		"elefrant-status": "./bin/elefrant-status",
+		"elefrant-user": "./bin/elefrant-user"
+	},
+	"engines": {
+		"node": ">=0.10.0",
+		"npm": "1.4.x"
+	},
+	"dependencies": {
+		"elefrantio": "~0.2.0",
+		"sails-disk": "~0.10.3"
+	},
+	"devDependencies": {
+		"grunt-cli": "~0.1.13",
+		"grunt-contrib-jshint": "~0.10.0",
+		"grunt-mocha-test": "~0.10.0",
+		"grunt": "~0.4.0",
+		"mocha": "~1.18.2",
+		"should": "~3.2.0"
+	},
+	"readmeFilename": "readme.md",
+	"bugs": {
+		"url": "https://github.com/Elefrant/elefrantio/issues"
+	},
+	"homepage": "https://github.com/Elefrant/elefrantio"
+}
