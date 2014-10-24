@@ -60,6 +60,7 @@
 		"opener": "~1.4.0",
 		"q": "~1.0.1",
 		"shelljs": "~0.3.0",
+		"restify": "~2.8.3",
 		"prompt": "~0.2.14",
 		"supports-color": "~1.2.0"
 	},
