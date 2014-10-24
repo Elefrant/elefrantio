@@ -50,8 +50,15 @@
 		"npm": "1.4.x"
 	},
 	"dependencies": {
-		"elefrantio": "~0.2.0",
-		"sails-disk": "~0.10.3"
+		"commander": "~2.5.0",
+		"dependable": "~0.2.5",
+		"elefrant-util": "~0.2.0",
+		"elefrant-orm": "~0.2.0",
+		"request": "latest",
+		"npm": "~1.4.7",
+		"opener": "~1.4.0",
+		"q": "~1.0.1",
+		"shelljs": "~0.3.0"
 	},
 	"devDependencies": {
 		"grunt-cli": "~0.1.13",
