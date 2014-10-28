@@ -7,33 +7,45 @@
 ## Install
 
 ```sh
-$ npm install --save elefrant-orm
+$ npm install -g elefrantio
 ```
 
 
 ## Usage
 
-Elefrant orm connect [Waterline ORM](https://github.com/balderdashy/waterline) with Elefrant Framework
+Usage of the command line:
 
-```js
-var orm = require('elefrant-orm');
+```sh
+Usage: elefrant [options] [command]
 
-var options = {
-adapters: {/* .. Adapter .. */},
-connections: {/* .. Connections .. */},
-collections: {/* .. Collections .. */},
-};
+  Commands:
 
-orm(options, function (err, models) {
-    if (err) {
-        console.log(err);
-    } else {
-        // Get models
-        // models.connections & models.collections
-        console.log(models);
-    }
-});
+    init <name> [options]       Create a ELEFRANT api server in the current working directory
+    postinstall                 Run npm install for components
+    preinstall                  Install dependencies from elefrant.json
+    install <module> [options]  Installs a ELEFRANT component
+    uninstall <module>          Uninstalls a ELEFRANT component
+    docs                        Open ELEFRANT documentation in your local browser
+    component <name> [options]  Create a component
+    list                        List all installed components
+    status                      Overall system status
+    user <email> [options]      Manage users
+    authorize                   Authorize your client
+    logout                      Logout authorized client
+    login                       Login to the network and authorized client
+    whoami                      Identifies authorized user
+    register                    Registers a user on elefrant network
+    addKey                      Add SSH key to elefrant.com
+    publish                     Publishes a component on the elefrant network
+    search                      Searches for a component on the elefrant network
+    help [cmd]                  display help for [cmd]
+
+Options:
+
+    -h, --help     output usage information
+    -v, --version  output the version number
 ```
+
 
 ## License
 
