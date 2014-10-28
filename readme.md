@@ -15,7 +15,7 @@ $ npm install -g elefrantio
 
 Usage of the command line:
 
-```sh
+```
 Usage: elefrant [options] [command]
 
   Commands:
@@ -23,8 +23,8 @@ Usage: elefrant [options] [command]
     init <name> [options]       Create a ELEFRANT api server in the current working directory
     postinstall                 Run npm install for components
     preinstall                  Install dependencies from elefrant.json
-    install <module> [options]  Installs a ELEFRANT component
-    uninstall <module>          Uninstalls a ELEFRANT component
+    install <component> [options]  Installs a ELEFRANT component
+    uninstall <component>          Uninstalls a ELEFRANT component
     docs                        Open ELEFRANT documentation in your local browser
     component <name> [options]  Create a component
     list                        List all installed components
@@ -37,7 +37,7 @@ Usage: elefrant [options] [command]
     register                    Registers a user on elefrant network
     addKey                      Add SSH key to elefrant.com
     publish                     Publishes a component on the elefrant network
-    search                      Searches for a component on the elefrant network
+    search <component>          Searches for a component on the elefrant network
     help [cmd]                  display help for [cmd]
 
 Options:

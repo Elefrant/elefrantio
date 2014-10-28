@@ -4,33 +4,34 @@
 
 // MEAN CLI.
 var program = require('commander'),
-	_ = require('elefrant-util').lodash;
+		_ = require('elefrant-util').lodash;
 
 // set program version
 var version = require('../package').version;
 program.version(version, '-v, --version');
 
 program
-	.command('init <name> [options]', 'Create a ELEFRANT api server in the current working directory')
-	.command('postinstall', 'Run npm install for packages')
-	.command('preinstall', 'Install dependencies from elefrant.json')
-	.command('install <module> [options]', 'Installs a ELEFRANT component')
-	.command('uninstall <module>', 'Uninstalls a ELEFRANT component')
-	.command('docs', 'Open ELEFRANT documentation in your local browser')
-	.command('component <name> [options]', 'Create a component')
-	.command('list', 'List all installed components')
-	.command('status', 'Overall system status')
-	.command('user <email> [options]', 'Manage users')
-	.command('authorize', 'Authorize your client')
-	.command('logout', 'Logout authorized client')
-	.command('login', 'Login to the network and authorized client')
-	.command('whoami', 'Identifies authorized user')
-	.command('register', 'Registers a user on mean network')
-	.command('addKey', 'Add SSH key to network.elefrant.io')
-	.command('publish', 'Publishes a package on the elefrant network')
-	.command('search', 'Searches for a package on the elefrant network')
+		.command('init <name> [options]', 'Create a ELEFRANT api server in the current working directory')
+		.command('postinstall', 'Run npm install for packages')
+		.command('preinstall', 'Install dependencies from elefrant.json')
+		.command('install <component> [options]', 'Installs a ELEFRANT component')
+		.command('uninstall <component>', 'Uninstalls a ELEFRANT component')
+		.command('docs', 'Open ELEFRANT documentation in your local browser')
+		.command('component <name> [options]', 'Create a component')
+		.command('action <name> [options]', 'Create an action')
+		.command('list', 'List all installed components')
+		.command('status', 'Overall system status')
+		.command('user <email> [options]', 'Manage users')
+		.command('authorize', 'Authorize your client')
+		.command('logout', 'Logout authorized client')
+		.command('login', 'Login to the network and authorized client')
+		.command('whoami', 'Identifies authorized user')
+		.command('register', 'Registers a user on mean network')
+		.command('addKey', 'Add SSH key to network.elefrant.io')
+		.command('publish', 'Publishes a package on the elefrant network')
+		.command('search <component>', 'Searches for a package on the elefrant network')
 
-.parse(process.argv);
+		.parse(process.argv);
 
 // print help with no args
 if (program.args.length < 1) {

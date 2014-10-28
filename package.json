@@ -41,6 +41,7 @@
 		"elefrant-uninstall": "./bin/elefrant-uninstall",
 		"elefrant-docs": "./bin/elefrant-docs",
 		"elefrant-component": "./bin/elefrant-component",
+		"elefrant-action": "./bin/elefrant-action",
 		"elefrant-list": "./bin/elefrant-list",
 		"elefrant-status": "./bin/elefrant-status",
 		"elefrant-user": "./bin/elefrant-user"
