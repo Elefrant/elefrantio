@@ -63,6 +63,7 @@
 		"shelljs": "~0.3.0",
 		"restify": "~2.8.3",
 		"prompt": "~0.2.14",
+		"moniker": "~0.1.2",
 		"supports-color": "~1.2.0"
 	},
 	"devDependencies": {
