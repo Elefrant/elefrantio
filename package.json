@@ -36,7 +36,6 @@
 		"elefrant-search": "./bin/elefrant-search",
 		"elefrant-register": "./bin/elefrant-register",
 		"elefrant-postinstall": "./bin/elefrant-postinstall",
-		"elefrant-preinstall": "./bin/elefrant-preinstall",
 		"elefrant-install": "./bin/elefrant-install",
 		"elefrant-uninstall": "./bin/elefrant-uninstall",
 		"elefrant-docs": "./bin/elefrant-docs",
