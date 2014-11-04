@@ -1,6 +1,6 @@
 {
 	"name": "elefrantio",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"description": "Elefrant: A javascript platform to create api servers.",
 	"license": "MIT",
 	"repository": {
@@ -56,9 +56,9 @@
 		"elefrant-util": "~0.2.0",
 		"elefrant-orm": "~0.2.0",
 		"request": "latest",
-		"npm": "~1.4.7",
+		"npm": "~2.1.3",
 		"opener": "~1.4.0",
-		"q": "~1.0.1",
+		"q": "~2.0.2",
 		"shelljs": "~0.3.0",
 		"restify": "~2.8.3",
 		"prompt": "~0.2.14",

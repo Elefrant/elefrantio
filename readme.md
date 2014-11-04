@@ -1,8 +1,18 @@
 # [![ELEFRANT Logo](https://raw.githubusercontent.com/Elefrant/elefrantio/ee8f771ab7be672b6f44d3d531059d1630bfd79a/lib/templates/logo.png)](http://elefrant.com/) ELEFRANT Core & Cli
 
-[![wercker status](https://app.wercker.com/status/ed958a0d0e57a3d11084695e9728b6b1/s/master "wercker status")](https://app.wercker.com/project/bykey/ed958a0d0e57a3d11084695e9728b6b1)
+[![wercker status](https://app.wercker.com/status/63ea08a96edc6f4a6897affb592ceeff/s/master "wercker status")](https://app.wercker.com/project/bykey/63ea08a96edc6f4a6897affb592ceeff) [![Dependency Status](https://gemnasium.com/Elefrant/elefrantio.svg)](https://gemnasium.com/Elefrant/elefrantio) [![npm version](https://badge.fury.io/js/elefrantio.svg)](http://badge.fury.io/js/elefrantio)
 
-[![Dependency Status](https://gemnasium.com/Elefrant/elefrantio.svg)](https://gemnasium.com/Elefrant/elefrantio)
+
+Source for npm package elefrantio.
+Is used primarily to manage components for extending functionality.
+The cli provides a lot of useful functionality, such as scaffolding options to create new components, add/remove and list currently installed components.
+See http://elefrant.com/#/docs for more in-depth information about Elefrant.
+
+
+## Container
+
+* The bin file used for cli operations.
+* Core functionality for managing components and actions.
 
 
 ## Install
@@ -23,7 +33,6 @@ Usage: elefrant [options] [command]
 
     init <name> [options]             Create a ELEFRANT api server in the current working directory
     postinstall                       Run npm install for components
-    preinstall                        Install dependencies from elefrant.json
     install <component> [options]     Installs a ELEFRANT component
     uninstall <component>             Uninstalls a ELEFRANT component
     docs                              Open ELEFRANT documentation in your local browser
