@@ -9,7 +9,7 @@ The cli provides a lot of useful functionality, such as scaffolding options to c
 See http://elefrant.com/#/docs for more in-depth information about Elefrant.
 
 
-## Container
+## Content
 
 * The bin file used for cli operations.
 * Core functionality for managing components and actions.
