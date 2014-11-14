@@ -53,7 +53,7 @@
 	"dependencies": {
 		"commander": "~2.5.0",
 		"dependable": "~0.2.5",
-		"elefrant-util": "~0.2.0",
+		"elefrant-util": "~0.2.1",
 		"elefrant-orm": "~0.2.0",
 		"request": "latest",
 		"npm": "~2.1.3",
