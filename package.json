@@ -1,6 +1,6 @@
 {
 	"name": "elefrantio",
-	"version": "0.2.3",
+	"version": "0.2.4",
 	"description": "Elefrant: A javascript platform to create api servers.",
 	"license": "MIT",
 	"repository": {
